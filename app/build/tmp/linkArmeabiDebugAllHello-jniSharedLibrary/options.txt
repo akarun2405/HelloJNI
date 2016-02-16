@@ -1,0 +1,12 @@
+-shared
+-Wl,-soname,libhello-jni.so
+-o
+C:\\Users\\Arun\\AndroidStudioProjects\\HelloJNI\\app\\build\\intermediates\\binaries\\debug\\all\\obj\\armeabi\\libhello-jni.so
+C:\\Users\\Arun\\AndroidStudioProjects\\HelloJNI\\app\\build\\intermediates\\objectFiles\\armeabiDebugAllHello-jniSharedLibrary\\hello-jniMainC\\946sctwaeip3sqjdt3vhv107s\\hello-jni.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=C:\\Users\\Arun\\AppData\\Local\\Android\\Sdk\\ndk-bundle/platforms/android-21/arch-arm
+-Wl,--build-id
+-no-canonical-prefixes
